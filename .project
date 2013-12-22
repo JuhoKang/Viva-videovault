@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Viva</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.stateofflow.eclipse.metrics.MetricsBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>com.stateofflow.eclipse.metrics.MetricsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>res/drawable/iadd.png</name>
+			<type>1</type>
+			<location>C:/Users/Kang Juho/Desktop/iadd.png</location>
+		</link>
+		<link>
+			<name>res/drawable/iaddclick.png</name>
+			<type>1</type>
+			<location>C:/Users/Kang Juho/Desktop/iaddclick.png</location>
+		</link>
+		<link>
+			<name>res/drawable/iedit.png</name>
+			<type>1</type>
+			<location>C:/Users/Kang Juho/Desktop/iedit.png</location>
+		</link>
+		<link>
+			<name>res/drawable/ieditclick.png</name>
+			<type>1</type>
+			<location>C:/Users/Kang Juho/Desktop/ieditclick.png</location>
+		</link>
+		<link>
+			<name>res/values-sw720dp-land/iaddclick.png</name>
+			<type>1</type>
+			<location>C:/Users/Kang Juho/Desktop/iaddclick.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>

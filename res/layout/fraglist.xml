@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tVfoldername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000" >
+
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/rL1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/vidlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvfoldername">
+
+        </ListView>
+        
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width = "match_parent"
+            android:layout_height = "70dp"
+            android:layout_alignParentBottom="true"
+            android:weightSum = "2">
+        <ImageButton
+            android:id="@+id/btn_add_video"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/imgbtnadd"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/imgbtnedit"
+            android:layout_weight="1" />
+        
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>
