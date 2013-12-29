@@ -9,6 +9,9 @@ to do
 
 
 메모
+
+
+
 문제점
 
 jfeinstein10/SlidingMenu를 사용했고
